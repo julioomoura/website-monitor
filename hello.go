@@ -57,7 +57,7 @@ func leComando() int {
 
 func iniciarMonitoramento() {
 	fmt.Println("Monitorando...")
-	sites := []string{"https://random-status-code.herokuapp.com/", "https://www.alura.com.br/", "https://www.caelum.com.br/"}
+	sites := []string{"https://www.globo.com/", "https://www.ahnegao.com.br/", "https://www.youtube.com"}
 
 	for i := 0; i < monitoramentos; i++ {
 		for _, site := range sites {
